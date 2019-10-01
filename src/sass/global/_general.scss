@@ -1,0 +1,49 @@
+@import "./global/colors";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app{ 
+    background: $c_grey_light;
+    .truck-info{
+        background: $c_white;
+        border-radius: 1.5em;
+        h3, span, p{
+            color: $c_grey_dark;
+            font-size: 1rem;
+        }
+    }        
+    
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    color: #aaa;
+    display: block;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    pointer-events: none;  
+    position: absolute;       
+    text-align: center;   
+    width: 2.375rem;
+    z-index: 2;  
+}
+
+.btn-state{
+    background: $c_white !important;
+    border:  none !important;
+    color: $c_blue_dark !important;
+    display: block !important;
+    font-weight: 400;
+    height: 38px !important;
+    line-height: 1 !important;      
+    margin: 0 auto;
+    width: 68% !important;     
+}
+

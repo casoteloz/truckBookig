@@ -1,0 +1,23 @@
+@import "./global/colors";
+nav{
+    background: $c_white !important;
+    a{        
+        color: $c_blue_dark;
+        font-size: 0.7rem;
+        font-weight: 500;
+        padding-bottom: .3rem !important;
+        padding-left: 3.681rem !important;
+        padding-right: 3.681rem !important;
+        padding-top: .3rem !important;     
+        text-align: center;
+        i{
+            display: block !important;
+            font-size: 1.7rem !important;
+        }
+        &:hover{
+            background: $c_blue_dark;
+            color: $c_white;           
+        }
+    }
+}
+

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.app {
+  background: #E6E6E6; }
+  .app .truck-info {
+    background: #ffffff;
+    border-radius: 1.5em; }
+    .app .truck-info h3, .app .truck-info span, .app .truck-info p {
+      color: #686868;
+      font-size: 1rem; }
+
+.has-search .form-control {
+  padding-left: 2.375rem; }
+
+.has-search .form-control-feedback {
+  color: #aaa;
+  display: block;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  width: 2.375rem;
+  z-index: 2; }
+
+.btn-state {
+  background: #ffffff !important;
+  border: none !important;
+  color: #193948 !important;
+  display: block !important;
+  font-weight: 400;
+  height: 38px !important;
+  line-height: 1 !important;
+  margin: 0 auto;
+  width: 68% !important; }
+
+nav {
+  background: #ffffff !important; }
+  nav a {
+    color: #193948;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-bottom: .3rem !important;
+    padding-left: 3.681rem !important;
+    padding-right: 3.681rem !important;
+    padding-top: .3rem !important;
+    text-align: center; }
+    nav a i {
+      display: block !important;
+      font-size: 1.7rem !important; }
+    nav a:hover {
+      background: #193948;
+      color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */
